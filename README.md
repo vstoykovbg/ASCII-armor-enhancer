@@ -13,6 +13,8 @@ $ sudo apt-get install fonts-ocr-a fonts-ocr-b fonts-dejavu
 
 I don't like that "0" and "O" in the OCR-B font are looking too similar. In DejaVu Sans Mono they can be differantiated by the dot in the zero.
 
+Fonts like "Courier" have too similar characters - "l" is looking like "1".
+
 Translation table:
 
 ```
