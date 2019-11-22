@@ -7,9 +7,13 @@ This script is changing some characters with cyrillic and greek characters.
 Translation table:
 
 Q ⇨ Я
+
 0 ⇨ θ
+
 l ⇨ л
+
 I ⇨ Д
+
 G ⇨ Ж
 
 ```
