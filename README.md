@@ -1,8 +1,17 @@
 # ASCII-armor-enhancer
 
-The problem with printing ASCII armored data on a paper is that some characters are looking similarly and this is  a prerequisite for OCR errors.
+The problem with printing ASCII armored data on a paper is that some characters are looking similarly and this is a prerequisite for OCR errors.
 
 This script is changing some characters with cyrillic and greek characters.
+
+It's recommended to use OCR-friendly fonts like [OCR-A](https://en.wikipedia.org/wiki/OCR-A) and [OCR-B]https://en.wikipedia.org/wiki/OCR-B. The font DejaVu Sans Mono is also good.
+
+You can install them on a Debian-based distribution easy:
+```
+$ sudo apt-get install fonts-ocr-a fonts-ocr-b fonts-dejavu
+```
+
+I don't like that "0" and "O" in the OCR-B font are looking too similar. In DejaVu Sans Mono they can be differantiated by the dot in the zero.
 
 Translation table:
 
