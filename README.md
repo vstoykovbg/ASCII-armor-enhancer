@@ -4,6 +4,8 @@ The problem with printing ASCII armored data on a paper is that some characters 
 
 This script is changing some characters with cyrillic and greek characters.
 
+Another method for reducing the likelihood of OCR errors is by using [RFC1751 encoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding).
+
 It's recommended to use OCR-friendly fonts like [OCR-A](https://en.wikipedia.org/wiki/OCR-A) and [OCR-B](https://en.wikipedia.org/wiki/OCR-B). The font DejaVu Sans Mono is also good.
 
 You can install them on a Debian-based distribution easy:
