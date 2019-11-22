@@ -6,15 +6,13 @@ This script is changing some characters with cyrillic and greek characters.
 
 Translation table:
 
+```
 Q ⇨ Я
-
 0 ⇨ θ
-
 l ⇨ л
-
 I ⇨ Д
-
 G ⇨ Ж
+```
 
 ```
 $ enhance-ascii-armor.py --action=encode < test.txt.asc  > test.txt.asc.enhanced
